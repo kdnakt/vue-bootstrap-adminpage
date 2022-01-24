@@ -1,24 +1,11 @@
 <template>
   <div id="nav">
-    <b-avatar variant="primary" text="KA" class="mr-3"></b-avatar> |
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/dummy">Dummy</router-link>
   </div>
   <router-view/>
 </template>
-
-<script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import { BAvatar } from 'bootstrap-vue-3';
-
-@Options({
-  components: {
-    BAvatar,
-  },
-})
-export default class App extends Vue {}
-</script>
 
 <style>
 #app {
