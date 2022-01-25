@@ -20,6 +20,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Dummy',
     component: () => import(/* webpackChunkName: "dummy" */ '../views/Dummy.vue'),
   },
+  {
+    path: '/buttons',
+    name: 'Buttons',
+    component: () => import(/* webpackChunkName: "buttons" */ '../views/Buttons.vue'),
+  },
 ];
 
 const router = createRouter({
