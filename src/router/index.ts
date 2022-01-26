@@ -30,6 +30,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Badge',
     component: () => import(/* webpackChunkName: "badge" */ '../views/Badge.vue'),
   },
+  {
+    path: '/formgroup',
+    name: 'FormGroup',
+    component: () => import(/* webpackChunkName: "formgroup" */ '../views/FormGroup.vue'),
+  },
 ];
 
 const router = createRouter({
