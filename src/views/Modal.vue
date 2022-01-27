@@ -4,9 +4,9 @@
     <h2>This is a modal page</h2>
   </div>
   <div>
-    <b-button v-b-modal.modal-1>Launch demo modal</b-button>
+    <b-button @click="showModal = !showModal">Launch demo modal</b-button>
 
-    <b-modal classList="" id="modal-1" title="BootstrapVue">
+    <b-modal id="modal-1" title="BootstrapVue" v-model="showModal">
       <p>Hello from modal!</p>
     </b-modal>
   </div>
@@ -23,5 +23,7 @@ import { BModal } from 'bootstrap-vue-3';
     BModal,
   },
 })
-export default class Modal extends Vue {}
+export default class Modal extends Vue {
+  showModal = false
+}
 </script>
