@@ -35,6 +35,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'FormGroup',
     component: () => import(/* webpackChunkName: "formgroup" */ '../views/FormGroup.vue'),
   },
+  {
+    path: '/modal',
+    name: 'Modal',
+    component: () => import(/* webpackChunkName: "modal" */ '../views/Modal.vue'),
+  },
 ];
 
 const router = createRouter({

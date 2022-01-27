@@ -5,7 +5,8 @@
     <router-link to="/dummy">Dummy</router-link> |
     <router-link to="/buttons">Buttons</router-link> |
     <router-link to="/badge">Badge</router-link> |
-    <router-link to="/formgroup">Form Group</router-link>
+    <router-link to="/formgroup">Form Group</router-link> |
+    <router-link to="/modal">Modal</router-link>
   </div>
   <router-view/>
 </template>
