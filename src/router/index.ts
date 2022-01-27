@@ -40,6 +40,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Modal',
     component: () => import(/* webpackChunkName: "modal" */ '../views/Modal.vue'),
   },
+  {
+    path: '/tabs',
+    name: 'Tabs',
+    component: () => import(/* webpackChunkName: "tabs" */ '../views/Tabs.vue'),
+  },
 ];
 
 const router = createRouter({
