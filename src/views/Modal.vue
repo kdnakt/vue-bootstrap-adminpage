@@ -6,7 +6,7 @@
   <div>
     <b-button @click="showModal = !showModal">Launch demo modal</b-button>
 
-    <b-modal id="modal-1" title="BootstrapVue" v-model="showModal">
+    <b-modal title="BootstrapVue" v-model="showModal">
       <p>Hello from modal!</p>
     </b-modal>
   </div>
