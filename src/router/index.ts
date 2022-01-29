@@ -45,6 +45,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Tabs',
     component: () => import(/* webpackChunkName: "tabs" */ '../views/Tabs.vue'),
   },
+  {
+    path: '/formmodal',
+    name: 'FormModal',
+    component: () => import(/* webpackChunkName: "formmodal" */ '../views/FormModal.vue'),
+  },
 ];
 
 const router = createRouter({

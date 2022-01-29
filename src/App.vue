@@ -7,7 +7,8 @@
     <router-link to="/badge">Badge</router-link> |
     <router-link to="/formgroup">Form Group</router-link> |
     <router-link to="/modal">Modal</router-link> |
-    <router-link to="/tabs">Tabs</router-link>
+    <router-link to="/tabs">Tabs</router-link> |
+    <router-link to="/formmodal">FormModal</router-link>
   </div>
   <router-view/>
 </template>
