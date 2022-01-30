@@ -69,11 +69,13 @@ export default class FormModal extends Vue {
     return valid;
   }
 
-  resetModal(): void {
+  resetModal(e: any): void {
+    console.log(e); // CustomEvent
     this.name = '';
   }
 
   handleOk(e: any): void {
+    console.log(e); // undefined
     // TODO: e.preventDefault();
     // Trigger submit handler
     this.handleSubmit();
