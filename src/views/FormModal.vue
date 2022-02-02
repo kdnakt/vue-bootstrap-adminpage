@@ -23,6 +23,11 @@
       @hidden="resetModal"
       @ok="handleOk"
     >
+    <!--
+      @ok.prevent="handleOk" resulted in
+      Uncaught TypeError: Cannot read properties of undefined (reading 'preventDefault')
+      in runtime-dom.esm-bundler.js
+    -->
       <form ref="form" @submit.stop="handleSubmit">
         <b-form-group
           label="Name"
