@@ -50,6 +50,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'FormModal',
     component: () => import(/* webpackChunkName: "formmodal" */ '../views/FormModal.vue'),
   },
+  {
+    path: '/pagination',
+    name: 'Pagination',
+    component: () => import(/* webpackChunkName: "pagination" */ '../views/Pagination.vue'),
+  },
 ];
 
 const router = createRouter({
