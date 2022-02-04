@@ -55,6 +55,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Pagination',
     component: () => import(/* webpackChunkName: "pagination" */ '../views/Pagination.vue'),
   },
+  {
+    path: '/alerts',
+    name: 'Alerts',
+    component: () => import(/* webpackChunkName: "alerts" */ '../views/Alerts.vue'),
+  },
 ];
 
 const router = createRouter({
