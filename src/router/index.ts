@@ -60,6 +60,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Alerts',
     component: () => import(/* webpackChunkName: "alerts" */ '../views/Alerts.vue'),
   },
+  {
+    path: '/spinner',
+    name: 'Spinner',
+    component: () => import(/* webpackChunkName: "spinner" */ '../views/Spinner.vue'),
+  },
 ];
 
 const router = createRouter({
