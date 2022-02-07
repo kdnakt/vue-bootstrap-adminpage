@@ -65,6 +65,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Spinner',
     component: () => import(/* webpackChunkName: "spinner" */ '../views/Spinner.vue'),
   },
+  {
+    path: '/popover',
+    name: 'Popover',
+    component: () => import(/* webpackChunkName: "popover" */ '../views/Popover.vue'),
+  },
 ];
 
 const router = createRouter({

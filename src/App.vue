@@ -11,7 +11,8 @@
     <router-link to="/formmodal">FormModal</router-link> |
     <router-link to="/pagination">Pagination</router-link> |
     <router-link to="/alerts">Alerts</router-link> |
-    <router-link to="/spinner">Spinner</router-link>
+    <router-link to="/spinner">Spinner</router-link> |
+    <router-link to="/popover">Popover</router-link>
   </div>
   <router-view/>
 </template>
