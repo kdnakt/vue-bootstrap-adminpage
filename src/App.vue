@@ -12,7 +12,8 @@
     <router-link to="/pagination">Pagination</router-link> |
     <router-link to="/alerts">Alerts</router-link> |
     <router-link to="/spinner">Spinner</router-link> |
-    <router-link to="/popover">Popover</router-link>
+    <router-link to="/popover">Popover</router-link> |
+    <router-link to="/progress">Progress</router-link>
   </div>
   <router-view/>
 </template>

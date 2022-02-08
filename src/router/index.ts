@@ -70,6 +70,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Popover',
     component: () => import(/* webpackChunkName: "popover" */ '../views/Popover.vue'),
   },
+  {
+    path: '/progress',
+    name: 'Progress',
+    component: () => import(/* webpackChunkName: "progress" */ '../views/Progress.vue'),
+  },
 ];
 
 const router = createRouter({
