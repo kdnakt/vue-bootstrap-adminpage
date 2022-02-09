@@ -12,7 +12,8 @@
     <b-progress :value="value" :max="max" show-value class="mb-3" :striped="true"></b-progress>
 
     <h5>Progress label</h5>
-    <b-progress :value="value" :max="max" show-progress class="mb-3"></b-progress>
+    <b-progress :value="value" :max="max" show-progress class="mb-3"
+      :striped="true" :animated="true"></b-progress>
 
     <h5>Value label with precision</h5>
     <b-progress :value="value" :max="max" :precision="2" show-value class="mb-3"></b-progress>
