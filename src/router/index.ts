@@ -75,6 +75,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Progress',
     component: () => import(/* webpackChunkName: "progress" */ '../views/Progress.vue'),
   },
+  {
+    path: '/carousel',
+    name: 'Carousel',
+    component: () => import(/* webpackChunkName: "carousel" */ '../views/Carousel.vue'),
+  },
 ];
 
 const router = createRouter({
